@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth; 
+}
+body {
+    padding-top: 200px;
+}
+/* Mobile CSS */
 @media only screen and (max-width: 995px) {
     #socialMedia1 {
         visibility: hidden;
@@ -137,17 +148,7 @@
         top: 125px;    
     }
 }
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
-html {
-    scroll-behavior: smooth; 
-}
-body {
-    padding-top: 200px;
-}
-/* <!-- Nav CSS --> */
+/* <!-- Desktop --> */
 #topoftheworld {
     font-size: 1.25rem;
     font-family: 'Barlow', sans-serif;
@@ -258,4 +259,82 @@ button {
 #Twitter {
     right: 30px;
     top: 10px;
+}
+/* ___________________________________________ */
+/* Video Responsive Homepage */
+@media (min-aspect-radio: 16/9) {
+    #video-background {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-radio: 16/9) {
+    #video-background {
+        width: auto;
+        height: 100%;
+    }
+}
+/* <!-- Header for Homepage --> */
+#pageTitle {
+    margin: 0;
+    font-family: 'playfair-display', serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 48px;
+    font-size: 4vw;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+.homepageContainer {
+    width: 100vw;
+    position: relative;
+    margin-top: -4vh;
+}
+#jumbotron{
+    margin-top: 0px;
+    position: absolute;
+    color: #f1f1f1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 300px;
+    width: 50%;
+    padding: 20px;
+    height: auto;
+    background-color: #64CBCD;
+}
+#headerButton {
+    background-color: #EDCB9A;
+    color: black;
+    border-color: #D7B483;
+    border-width: 2px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-size: 2.4vw;
+    font-weight: 600;
+    width: 100%;
+    cursor: pointer;
+    margin: auto;
+}
+#headerButton:hover {
+    background: #2E6263;
+    color: white;
+    border-color: #2E6263;
+}
+#video-background {
+    position: relative;
+    z-index: -1;
+    right: 0;
+    left:0;
+    bottom: 0;
+    top:0;
+    width: 100%;
+    min-height: 100%;
+    min-height: -80px;
+    /* margin-right: -5vw; */
+}
+.lead {
+    width: 100%;
+    margin: auto;
 }
