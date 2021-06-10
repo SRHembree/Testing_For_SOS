@@ -292,7 +292,7 @@ button {
     margin-bottom: 1vh;
 }
 .homepageContainer {
-    width: 100vw;
+    width: 102vw;
     position: relative;
     margin-top: -4vh;
 }
@@ -302,7 +302,7 @@ button {
     color: #f1f1f1;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-52%, -52%);
     max-width: 300px;
     width: 50%;
     padding: 20px;
@@ -351,11 +351,25 @@ button {
     font-style: italic;
 }
 /* <!-- Content for Homepage --> */
+.background {
+    background-image: url(../images/dalmation2.png);
+    object-fit: cover;
+    flex-shrink: 0;
+    min-width: 100%;
+}
 .cardtitlehome {
     font-family: 'playfair-display', serif;
     font-weight: normal;
     font-style: normal;
     color: black;
+    font-size: 48px;
+    text-align: center;
+}
+.cardtitlehome1 {
+    font-family: 'playfair-display', serif;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
     font-size: 48px;
     text-align: center;
 }
@@ -376,9 +390,10 @@ button {
     padding: 5px;
     margin-top: 0px;
     border-radius: 4px;
+    margin-bottom: 15px;
 }
 .cardbranding2 {
-    background-color: #2E6263;
+    background-color: #4FA3A5;
     padding: 5px;
     margin-top: 0px;
     border-radius: 4px;
@@ -399,9 +414,14 @@ button {
     padding-inline: 10px;
     padding-bottom: 8px;
 }
-.dalmation {
-    background-image: url("../images/dalmation.png");
-    background-size: cover;
+.card-bodybrand1 {
+    font-family: 'barlow', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+    color: black;
+    padding-inline: 10px;
+    padding-bottom: 8px;
 }
 .video-container {
     position: relative; 
@@ -420,4 +440,117 @@ button {
 .card-img-map {
     width: 70%;
     height: 70%;
+}
+.card-img-dedicate {
+    width: 100%;
+    height: 100%;
+}
+.carousel-item {
+    width: 100%;
+    justify-content: center;
+}
+.colorbackground {
+    background-color: #64CBCD;
+}
+.coloredbackground {
+    background-color: #2E6263;
+}
+.signupform {
+    background-color: #4FA3A5;
+    padding: 10px;
+    border-radius: 4px;
+    margin-right: 40px;
+    margin-left: 20px; 
+}
+.SIGNUP {
+    width: 70%;
+}
+#signUp {
+    align-content: center;
+}
+#headerButton1 {
+    background-color: #EDCB9A;
+    color: black;
+    border-color: #D7B483;
+    border-width: 1px;
+    font-family: 'barlow', sans-serif;
+    font-size: 12px;
+    font-size: 2vw;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+    margin: auto;
+}
+#headerButton1:hover {
+    background: #2E6263;
+    color: white;
+    border-color: #2E6263;
+}
+#navIconFooter {
+    display: block !important;
+    height: 120px;
+    width: 120px;
+    margin-left: 35% !important;
+    padding-bottom: 5px;
+}
+#EnvelopeFooter {
+    background-color: #4FA3A5 !important;
+    color: white !important;
+    left: 60px;
+    bottom: 60px;
+    /* left: 150px;
+    bottom: 25px; */
+}
+#FacebookFooter {
+    background-color: #4FA3A5 !important;
+    color: white !important;
+    left: 125px;
+    bottom: 60px;
+    /* left: 230px;
+    bottom: 25px; */
+}
+#TwitterFooter {
+    background-color: #4FA3A5 !important;
+    color: white !important;
+    left: 190px;
+    bottom: 60px;
+    /* left: 310px;
+    bottom: 25px; */
+}
+#socialsFooter {
+    width: 30px;
+    height: 30px;
+    color: white !important;
+    font-size: 1.5em;
+    margin: 5px;
+    padding-top: 5px;
+}
+.copyright {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.submitButton {
+    background-color: #EDCB9A;
+    width: 28%;
+    margin-left: 6px;
+}
+@media only screen and (max-width: 995px) {
+    #EnvelopeFooter {
+        left: 150px;
+        bottom: 25px;
+        background-color: #4FA3A5 !important;
+        color: white !important;
+    }
+    #FacebookFooter {
+        background-color: #4FA3A5 !important;
+        color: white !important;
+        left: 230px;
+        bottom: 25px;
+    }
+    #TwitterFooter {
+        background-color: #4FA3A5 !important;
+        color: white !important;
+        left: 310px;
+        bottom: 25px;
+    }
 }
